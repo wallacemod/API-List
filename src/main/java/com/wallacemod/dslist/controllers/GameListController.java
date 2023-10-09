@@ -22,7 +22,7 @@ public class GameListController {
     private GameService gameService;
 
     @GetMapping
-    public List<GameListDTO> listar(){
+    public List<GameListDTO> findAll(){
         List<GameListDTO> result = gameListService.findAll();
         return result;
     }
