@@ -1,8 +1,6 @@
 package com.wallacemod.dslist.services;
 
 import com.wallacemod.dslist.dto.GameListDTO;
-import com.wallacemod.dslist.dto.GameMinDTO;
-import com.wallacemod.dslist.entities.Game;
 import com.wallacemod.dslist.entities.GameList;
 import com.wallacemod.dslist.projections.GameMinProjection;
 import com.wallacemod.dslist.repositories.GameListRepository;

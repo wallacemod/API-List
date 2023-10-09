@@ -2,7 +2,6 @@ package com.wallacemod.dslist.controllers;
 
 import com.wallacemod.dslist.dto.GameDTO;
 import com.wallacemod.dslist.dto.GameMinDTO;
-import com.wallacemod.dslist.entities.Game;
 import com.wallacemod.dslist.services.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
